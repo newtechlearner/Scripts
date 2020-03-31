@@ -22,5 +22,5 @@
   - name: Pull docker image from dockerhub
     command: docker pull newtechlearner/docker-webapp-image:latest
 
-  - name: create container using deraviyam/docker-webapp-image
-    command: docker run -d --name docker-webapp-container -p 4000:8080 deraviyam/docker-webapp-image:latest
+  - name: create container using newtechlearner/docker-webapp-image
+    command: docker run -d --name docker-webapp-container -p 4000:8080 newtechlearner/docker-webapp-image:latest
